@@ -35,6 +35,36 @@ body {
 	margin-top: .5em;
 }
 
+.ratings {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.rate-column {
+	width: 80%;
+	color: var(--very-dark-magenta);
+	font-weight: 700;
+	background-color: var(--light-grayish-magenta);
+	padding: 1em 2em;
+}
+
+.rate-column img {
+	margin: 0 .1em;
+}
+
+.rate-column img:last-child {
+	margin-right: 1.2em;
+}
+
+.rate-column:nth-child(2) {
+	align-self: center;
+}
+
+.rate-column:nth-child(3) {
+	align-self: flex-end;
+}
+
 .testimonials {
 	grid-column: 1/3;
 }
