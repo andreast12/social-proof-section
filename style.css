@@ -128,7 +128,7 @@ body {
 
 /* media query */
 
-@media (max-width: 560px) {
+@media (max-width: 768px) {
 	.container {
 		width: 90%;
 		margin: 8vh auto 0;
