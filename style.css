@@ -57,6 +57,7 @@ body {
 	border-radius: 7px;
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .rate-column:nth-child(2) {
@@ -68,7 +69,7 @@ body {
 }
 
 .stars {
-	padding-right: 1.5em;
+	margin: 0 1.5em .3em 0;
 }
 
 
@@ -132,8 +133,7 @@ body {
 	.container {
 		width: 90%;
 		margin: 8vh auto 0;
-		display: flex;
-		flex-direction: column;
+		grid-template-columns: 1fr;
 		text-align: center;
 	}
 
@@ -161,14 +161,11 @@ body {
 		margin: 1rem 0;
 	}
 
-	.stars {
-		margin-bottom: .5em;
-	}
-
 
 	/* testimonials */
 
 	.testimonials {
+		grid-column: span 1;
 		flex-direction: column;
 	}
 
